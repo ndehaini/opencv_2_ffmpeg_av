@@ -8,3 +8,11 @@ The learning knowledge and some code were acquired from the ffmpeg tutroials as 
 
 Before using the code, please ensure that opencv, ffmpeg and SDL2 libs are installed.
 Pull source Ensure the av_settings.cfg is correctly configured and is pointing to the correct audio and cam devices as well as the directories where mp4 file is going to be.
+
+
+Start cam_exe
+type c to start capturing.  You will get a display of the camera view. 
+type q to quit
+
+known issues:  
+Type c to start capturing but if you type c again the capturing stops as it is supposed to.  If you start capturing again, the display hangs, so you can't restart the capturing.  I will fix this, but for now just type q to quit capturing.  
